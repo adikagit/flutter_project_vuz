@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "706610735179",
+    "project_id": "adivuz-46cc7",
+    "storage_bucket": "adivuz-46cc7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:706610735179:android:76d45a9dc5c87d627c85ce",
+        "android_client_info": {
+          "package_name": "com.example.adivuz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "706610735179-0n34qt7na2kg4vg7jd0vqdd9af1pn57m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCwPT9rrWB5xcDl1MGKC6RefczX4hqSVc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "706610735179-0n34qt7na2kg4vg7jd0vqdd9af1pn57m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

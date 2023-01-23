@@ -1,0 +1,63 @@
+name: adivuz
+description: A new Flutter project.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  cloud_firestore:
+  firebase_core:
+  firebase_storage:
+  flutter:
+    sdk: flutter
+  iconsax:
+  curved_navigation_bar:
+  intl:
+  google_fonts:
+  flutter_colorful_tab:
+
+#get:
+  flutter_local_notifications:
+  flutter_native_timezone:
+
+  progress_state_button: #button
+
+  url_launcher:
+  flutter_phone_direct_caller:
+
+  image_picker:
+  #permission_handler: ^8.3.0
+
+dev_dependencies:
+  extra_pedantic: ^1.5.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: SourceSerifPro
+      fonts:
+        - asset: assets/fonts/SourceSerifPro-Bold.ttf
+
+    - family: Ubuntu
+      fonts:
+        - asset: assets/fonts/Ubuntu-Regular.ttf
+        - asset: assets/fonts/Ubuntu-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Ubuntu-Light.ttf
+          weight: 200
+
+    - family: IconFont
+      fonts:
+        - asset: assets/fonts/IconFont.ttf
